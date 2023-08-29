@@ -1,1 +1,30 @@
 @use '@angular/material' as mat;
+
+
+
+@import 'scss/custom-colors';
+@import 'scss/utility';
+@import 'scss/commons';
+@import 'scss/fonts';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.no-scrollbar{
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0;
+}

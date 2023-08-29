@@ -1,0 +1,17 @@
+@import "./utility";
+
+@font-face {
+    font-family: Montserrat;
+    src: local("../assets/fonts/Montserrat-VariableFont_wght.ttf"), 
+      url("../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local("../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"), 
+      url("../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+    font-style: italic;
+    font-stretch: normal;
+}
